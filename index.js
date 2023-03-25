@@ -32,3 +32,7 @@ else {
 document.querySelector(".reload").addEventListener("click", function () {
   window.location.reload();
 })
+
+//Footer
+const year = new Date().getFullYear();
+document.getElementById("currentYear").innerHTML = "&#169;"+year;
